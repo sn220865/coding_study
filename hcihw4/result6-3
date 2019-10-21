@@ -1,0 +1,184 @@
+DV: task completion time (s)
+F1: task,T1,T2,T3,T4,T5
+F2: .
+F3: .
+F4: .
+F5: Background
+F6: .
+F7: .		
+23	21	16	17	15	Non-gamer
+24	21	20	17	14	Non-gamer
+24	20	21	15	13	Non-gamer
+26	21	20	17	16	Non-gamer
+17	18	20	15	14	Non-gamer
+19	16	15	14	15	Gamer
+20	16	15	13	14	Gamer
+16	16	14	13	11	Gamer
+15	15	12	14	12	Gamer
+17	16	13	14	12	Gamer
+
+ANOVA_table_for_task completion time (s)
+=================================================================================
+Effect                        df        SS            MS         F        p      
+---------------------------------------------------------------------------------
+Background                     1       192.080       192.080    32.667    0.0004
+Participant(Background)        8        47.040         5.880    
+task                           4       260.920        65.230    30.446    0.0000
+task_x_Background              4        30.920         7.730     3.608    0.0155
+task_x_P(group)               32        68.560         2.143    
+=================================================================================
+Data_file: Data6-3.txt
+
+Summary statements:
+The effect of background on task completion time was statistically significant (F(1, 8) = 32.667, p < .0005).
+The effect of task on task completion time was statistically significant (F(4, 32) = 30.446, p < .0001).
+The task_x_background interaction effect was statistically significant (F(4, 32) = 3.608, p < .05).
+
+=============================
+----- MAIN EFFECT MEANS -----
+=============================
+Grand mean: 16.64
+Participant means: 
+   P0=15.80000
+   P1=15.60000
+   P2=14
+   P3=13.60000
+   P4=14.40000
+   P5=18.40000
+   P6=19.20000
+   P7=18.60000
+   P8=20
+   P9=16.80000
+task means: 
+   T1=20.10000
+   T2=18
+   T3=16.60000
+   T4=14.90000
+   T5=13.60000
+Background means: 
+   Gamer=14.68000
+   Non-gamer=18.60000
+
+========================
+----- EFFECT SIZES -----
+========================
+Partial-eta-squared (np2)
+   np2 f1(task): 0.723973
+   np2 f5(Background): 0.803279
+   np2 f1xf5(taskxBackground): 0.310816
+-----
+Omega-squared (o2) (between-subjects only)
+   o2 f5(Background): 0.387755
+-----
+
+=============================
+----- RAW DATA UNSORTED -----
+============================
+23,21,16,17,15,Non-gamer
+24,21,20,17,14,Non-gamer
+24,20,21,15,13,Non-gamer
+26,21,20,17,16,Non-gamer
+17,18,20,15,14,Non-gamer
+19,16,15,14,15,Gamer
+20,16,15,13,14,Gamer
+16,16,14,13,11,Gamer
+15,15,12,14,12,Gamer
+17,16,13,14,12,Gamer
+===========================================
+----- RAW DATA SORTED BY F5 > F6 > F7 -----
+===========================================
+19,16,15,14,15,Gamer
+20,16,15,13,14,Gamer
+16,16,14,13,11,Gamer
+15,15,12,14,12,Gamer
+17,16,13,14,12,Gamer
+23,21,16,17,15,Non-gamer
+24,21,20,17,14,Non-gamer
+24,20,21,15,13,Non-gamer
+26,21,20,17,16,Non-gamer
+17,18,20,15,14,Non-gamer
+======================
+----- ANOVA DATA -----
+======================
+19.000000,16.000000,15.000000,14.000000,15.000000
+20.000000,16.000000,15.000000,13.000000,14.000000
+16.000000,16.000000,14.000000,13.000000,11.000000
+15.000000,15.000000,12.000000,14.000000,12.000000
+17.000000,16.000000,13.000000,14.000000,12.000000
+23.000000,21.000000,16.000000,17.000000,15.000000
+24.000000,21.000000,20.000000,17.000000,14.000000
+24.000000,20.000000,21.000000,15.000000,13.000000
+26.000000,21.000000,20.000000,17.000000,16.000000
+17.000000,18.000000,20.000000,15.000000,14.000000
+=================
+----- MEANS -----
+=================
+Grand mean: 16.64
+m p = [P0=15.80000, P1=15.60000, P2=14, P3=13.60000, P4=14.40000, P5=18.40000, P6=19.20000, P7=18.60000, P8=20, P9=16.80000]
+m f1 = [T1=20.10000, T2=18, T3=16.60000, T4=14.90000, T5=13.60000]
+m f2 = -
+m f3 = -
+m f5 = [Gamer=14.68000, Non-gamer=18.60000]
+m f6 = -
+m f7 = -
+m f1xp = [T1,P0=19, T1,P1=20, T1,P2=16, T1,P3=15, T1,P4=17, T1,P5=23, T1,P6=24, T1,P7=24, T1,P8=26, T1,P9=17, T2,P0=16, T2,P1=16, T2,P2=16, T2,P3=15, T2,P4=16, T2,P5=21, T2,P6=21, T2,P7=20, T2,P8=21, T2,P9=18, T3,P0=15, T3,P1=15, T3,P2=14, T3,P3=12, T3,P4=13, T3,P5=16, T3,P6=20, T3,P7=21, T3,P8=20, T3,P9=20, T4,P0=14, T4,P1=13, T4,P2=13, T4,P3=14, T4,P4=14, T4,P5=17, T4,P6=17, T4,P7=15, T4,P8=17, T4,P9=15, T5,P0=15, T5,P1=14, T5,P2=11, T5,P3=12, T5,P4=12, T5,P5=15, T5,P6=14, T5,P7=13, T5,P8=16, T5,P9=14]
+m f2xp = -
+m f3xp = -
+m f4xp = -
+m f1xf2 = -
+m f1xf3 = -
+m f1xf4 = -
+m f1xf5 = [T1,Gamer=17.40000, T1,Non-gamer=22.80000, T2,Gamer=15.80000, T2,Non-gamer=20.20000, T3,Gamer=13.80000, T3,Non-gamer=19.40000, T4,Gamer=13.60000, T4,Non-gamer=16.20000, T5,Gamer=12.80000, T5,Non-gamer=14.40000]
+m f1xf6 = -
+m f1xf7 = -
+m f2xf3 = -
+m f2xf4 = -
+m f2xf5 = -
+m f2xf6 = -
+m f2xf7 = -
+m f3xf4 = -
+m f3xf5 = -
+m f3xf6 = -
+m f4xf5 = -
+m f5xf6 = -
+m f5xf7 = -
+m f6xf7 = -
+==============================
+----- DEGREES OF FREEDOM -----
+==============================
+df Total: 49
+df Background: 1
+df Participant(Background): 8
+df task: 4
+df task_x_Background: 4
+df task_x_P(group): 32
+===========================
+----- SUMS OF SQUARES -----
+===========================
+ss Total: 599.5199999999999
+ss Background: 192.080000
+ss Participant(Background): 47.040000
+ss task: 260.920000
+ss task_x_Background: 30.920000
+ss task_x_P(group): 68.560000
+========================
+----- MEAN SQUARES -----
+========================
+ms Background: 192.080000
+ms Participant(Background): 5.880000
+ms task: 65.230000
+ms task_x_Background: 7.730000
+ms task_x_P(group): 2.142500
+========================
+----- F STATISTICS -----
+========================
+f Background: 32.666667
+f task: 30.445741
+f task_x_Background: 3.607935
+==============================
+----- p FOR F STATISTICS -----
+==============================
+p Background: 0.000446
+p task: 0.000000
+p task_x_Background: 0.015472
+

@@ -1,0 +1,238 @@
+
+ANOVA_table_for_task completion time (s)
+=================================================================================
+Effect                        df        SS            MS         F        p      
+---------------------------------------------------------------------------------
+Group                          1         4.687         4.687     1.106    0.3177
+Participant(group)            10        42.375         4.238    
+One-handed                     1        20.021        20.021     7.995    0.0179
+One-handed_x_Group             1         9.187         9.187     3.669    0.0844
+One-handed_x_P(group)         10        25.042         2.504    
+Two-handed                     1         9.188         9.188     3.182    0.1048
+Two-handed_x_Group             1         0.187         0.187     0.065    0.8040
+Two-handed_x_P(group)         10        28.875         2.888    
+One-handed_x_Two-handed        1         6.021         6.021     1.485    0.2509
+One-handed_x_Two-handed_x_Gr   1         4.688         4.688     1.156    0.3075
+One-handed_x_Two-handed_x_P(  10        40.542         4.054    
+=================================================================================
+Data_file: Data6-4.txt
+
+Summary statements:
+The effect of group on task completion time was not statistically significant (F(1, 10) = 1.106, p > .05).
+The effect of one-handed on task completion time was statistically significant (F(1, 10) = 7.995, p < .05).
+The one-handed_x_group interaction effect was not statistically significant (F(1, 10) = 3.669, p > .05).
+The effect of two-handed on task completion time was not statistically significant (F(1, 10) = 3.182, p > .05).
+The two-handed_x_group interaction effect was not statistically significant (F(1, 10) = 0.065, ns).
+The one-handed_x_two-handed interaction effect was not statistically significant (F(1, 10) = 1.485, p > .05).
+
+ANOVA_table_for_task completion time (s)
+=================================================================================
+Effect                        df        SS            MS         F        p      
+---------------------------------------------------------------------------------
+Group                          1         4.687         4.687     1.106    0.3177
+Participant(group)            10        42.375         4.238    
+One-handed                     1        20.021        20.021     7.995    0.0179
+One-handed_x_Group             1         9.187         9.187     3.669    0.0844
+One-handed_x_P(group)         10        25.042         2.504    
+Two-handed                     1         9.188         9.188     3.182    0.1048
+Two-handed_x_Group             1         0.187         0.187     0.065    0.8040
+Two-handed_x_P(group)         10        28.875         2.888    
+One-handed_x_Two-handed        1         6.021         6.021     1.485    0.2509
+One-handed_x_Two-handed_x_Gr   1         4.688         4.688     1.156    0.3075
+One-handed_x_Two-handed_x_P(  10        40.542         4.054    
+=================================================================================
+Data_file: Data6-4.txt
+
+Summary statements:
+The effect of group on task completion time was not statistically significant (F(1, 10) = 1.106, p > .05).
+The effect of one-handed on task completion time was statistically significant (F(1, 10) = 7.995, p < .05).
+The one-handed_x_group interaction effect was not statistically significant (F(1, 10) = 3.669, p > .05).
+The effect of two-handed on task completion time was not statistically significant (F(1, 10) = 3.182, p > .05).
+The two-handed_x_group interaction effect was not statistically significant (F(1, 10) = 0.065, ns).
+The one-handed_x_two-handed interaction effect was not statistically significant (F(1, 10) = 1.485, p > .05).
+
+=============================
+----- MAIN EFFECT MEANS -----
+=============================
+Grand mean: 8.0625
+Participant means: 
+   P0=9
+   P1=8
+   P2=8
+   P3=7.75000
+   P4=7.25000
+   P5=6.50000
+   P6=7.50000
+   P7=7.75000
+   P8=8
+   P9=7.25000
+   P10=10
+   P11=9.75000
+One-handed means: 
+   Drag-only=8.70833
+   Drag+flick=7.41667
+Two-handed means: 
+   Drag-only=8.50000
+   Drag+flick=7.62500
+Group means: 
+   G1=7.75000
+   G2=8.37500
+
+========================
+----- EFFECT SIZES -----
+========================
+Partial-eta-squared (np2)
+   np2 f1(One-handed): 0.369048
+   np2 f2(Two-handed): 0.240196
+   np2 f5(Group): 0.099602
+   np2 f1xf2(One-handedxTwo-handed): 0.117480
+   np2 f1xf5(One-handedxGroup): 0.268411
+   np2 f2xf5(Two-handedxGroup): 0.006452
+-----
+Omega-squared (o2) (between-subjects only)
+   o2 f5(Group): 0.002208
+-----
+
+=============================
+----- RAW DATA UNSORTED -----
+============================
+12,11,7,6,G1
+11,7,6,8,G1
+9,8,8,7,G1
+9,9,7,6,G1
+13,5,6,5,G1
+6,6,5,9,G1
+7,7,8,8,G2
+9,8,9,5,G2
+8,8,9,7,G2
+7,8,9,5,G2
+11,10,8,11,G2
+12,8,8,11,G2
+===========================================
+----- RAW DATA SORTED BY F5 > F6 > F7 -----
+===========================================
+12,11,7,6,G1
+11,7,6,8,G1
+9,8,8,7,G1
+9,9,7,6,G1
+13,5,6,5,G1
+6,6,5,9,G1
+7,7,8,8,G2
+9,8,9,5,G2
+8,8,9,7,G2
+7,8,9,5,G2
+11,10,8,11,G2
+12,8,8,11,G2
+======================
+----- ANOVA DATA -----
+======================
+12.000000,11.000000,7.000000,6.000000
+11.000000,7.000000,6.000000,8.000000
+9.000000,8.000000,8.000000,7.000000
+9.000000,9.000000,7.000000,6.000000
+13.000000,5.000000,6.000000,5.000000
+6.000000,6.000000,5.000000,9.000000
+7.000000,7.000000,8.000000,8.000000
+9.000000,8.000000,9.000000,5.000000
+8.000000,8.000000,9.000000,7.000000
+7.000000,8.000000,9.000000,5.000000
+11.000000,10.000000,8.000000,11.000000
+12.000000,8.000000,8.000000,11.000000
+=================
+----- MEANS -----
+=================
+Grand mean: 8.0625
+m p = [P0=9, P1=8, P2=8, P3=7.75000, P4=7.25000, P5=6.50000, P6=7.50000, P7=7.75000, P8=8, P9=7.25000, P10=10, P11=9.75000]
+m f1 = [Drag-only=8.70833, Drag+flick=7.41667]
+m f2 = [Drag-only=8.50000, Drag+flick=7.62500]
+m f3 = -
+m f5 = [G1=7.75000, G2=8.37500]
+m f6 = -
+m f7 = -
+m f1xp = [Drag-only,P0=11.50000, Drag-only,P1=9, Drag-only,P2=8.50000, Drag-only,P3=9, Drag-only,P4=9, Drag-only,P5=6, Drag-only,P6=7, Drag-only,P7=8.50000, Drag-only,P8=8, Drag-only,P9=7.50000, Drag-only,P10=10.50000, Drag-only,P11=10, Drag+flick,P0=6.50000, Drag+flick,P1=7, Drag+flick,P2=7.50000, Drag+flick,P3=6.50000, Drag+flick,P4=5.50000, Drag+flick,P5=7, Drag+flick,P6=8, Drag+flick,P7=7, Drag+flick,P8=8, Drag+flick,P9=7, Drag+flick,P10=9.50000, Drag+flick,P11=9.50000]
+m f2xp = [Drag-only,P0=9.50000, Drag-only,P1=8.50000, Drag-only,P2=8.50000, Drag-only,P3=8, Drag-only,P4=9.50000, Drag-only,P5=5.50000, Drag-only,P6=7.50000, Drag-only,P7=9, Drag-only,P8=8.50000, Drag-only,P9=8, Drag-only,P10=9.50000, Drag-only,P11=10, Drag+flick,P0=8.50000, Drag+flick,P1=7.50000, Drag+flick,P2=7.50000, Drag+flick,P3=7.50000, Drag+flick,P4=5, Drag+flick,P5=7.50000, Drag+flick,P6=7.50000, Drag+flick,P7=6.50000, Drag+flick,P8=7.50000, Drag+flick,P9=6.50000, Drag+flick,P10=10.50000, Drag+flick,P11=9.50000]
+m f3xp = -
+m f4xp = -
+m f1xf2 = [Drag-only,Drag-only=9.50000, Drag-only,Drag+flick=7.91667, Drag+flick,Drag-only=7.50000, Drag+flick,Drag+flick=7.33333]
+m f1xf3 = -
+m f1xf4 = -
+m f1xf5 = [Drag-only,G1=8.83333, Drag-only,G2=8.58333, Drag+flick,G1=6.66667, Drag+flick,G2=8.16667]
+m f1xf6 = -
+m f1xf7 = -
+m f2xf3 = -
+m f2xf4 = -
+m f2xf5 = [Drag-only,G1=8.25000, Drag-only,G2=8.75000, Drag+flick,G1=7.25000, Drag+flick,G2=8]
+m f2xf6 = -
+m f2xf7 = -
+m f3xf4 = -
+m f3xf5 = -
+m f3xf6 = -
+m f4xf5 = -
+m f5xf6 = -
+m f5xf7 = -
+m f6xf7 = -
+==============================
+----- DEGREES OF FREEDOM -----
+==============================
+df Total: 47
+df Group: 1
+df Participant(group): 10
+df One-handed: 1
+df One-handed_x_Group: 1
+df One-handed_x_P(group): 10
+df Two-handed: 1
+df Two-handed_x_Group: 1
+df Two-handed_x_P(group): 10
+df One-handed_x_Two-handed: 1
+df One-handed_x_Two-handed_x_Gr: 1
+df One-handed_x_Two-handed_x_P(: 10
+===========================
+----- SUMS OF SQUARES -----
+===========================
+ss Total: 190.8125
+ss Group: 4.687500
+ss Participant(group): 42.375000
+ss One-handed: 20.020833
+ss One-handed_x_Group: 9.187500
+ss One-handed_x_P(group): 25.041667
+ss Two-handed: 9.187500
+ss Two-handed_x_Group: 0.187500
+ss Two-handed_x_P(group): 28.875000
+ss One-handed_x_Two-handed: 6.020833
+ss One-handed_x_Two-handed_x_Gr: 4.687500
+ss One-handed_x_Two-handed_x_P(: 40.541667
+========================
+----- MEAN SQUARES -----
+========================
+ms Group: 4.687500
+ms Participant(group): 4.237500
+ms One-handed: 20.020833
+ms One-handed_x_Group: 9.187500
+ms One-handed_x_P(group): 2.504167
+ms Two-handed: 9.187500
+ms Two-handed_x_Group: 0.187500
+ms Two-handed_x_P(group): 2.887500
+ms One-handed_x_Two-handed: 6.020833
+ms One-handed_x_Two-handed_x_Gr: 4.687500
+ms One-handed_x_Two-handed_x_P(: 4.054167
+========================
+----- F STATISTICS -----
+========================
+f Group: 1.106195
+f One-handed: 7.995008
+f One-handed_x_Group: 3.668885
+f Two-handed: 3.181818
+f Two-handed_x_Group: 0.064935
+f One-handed_x_Two-handed: 1.485098
+f One-handed_x_Two-handed_x_Gr: 1.156218
+==============================
+----- p FOR F STATISTICS -----
+==============================
+p Group: 0.317662
+p One-handed: 0.017927
+p One-handed_x_Group: 0.084444
+p Two-handed: 0.104784
+p Two-handed_x_Group: 0.804023
+p One-handed_x_Two-handed: 0.250947
+p One-handed_x_Two-handed_x_Gr: 0.307510
+

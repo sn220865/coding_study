@@ -1,0 +1,193 @@
+DV: Mean Driving Error (pixels)
+F1: Distraction Type,No Distraction,Call Answering,Test Messaging
+F2: .
+F3: .
+F4: .
+F5: Group
+F6: .
+F7: .
+10,10,17,G1
+14,11,13,G1
+11,9,14,G1
+9,13,11,G1
+13,14,10,G2
+11,8,18,G2
+14,9,14,G2
+9,11,16,G2
+7,14,15,G3
+9,11,17,G3
+10,9,11,G3
+12,14,15,G3
+
+ANOVA_table_for_Mean Driving Error (pixels)
+=================================================================================
+Effect                        df        SS            MS         F        p      
+---------------------------------------------------------------------------------
+Group                          2         1.056         0.528     0.179    0.8393
+Participant(Group)             9        26.583         2.954    
+Distraction Type               2        89.556        44.778     5.941    0.0104
+Distraction Type_x_Group       4        16.111         4.028     0.534    0.7122
+Distraction Type_x_P(group)   18       135.667         7.537    
+=================================================================================
+Data_file: Data6-2.txt
+
+Summary statements:
+The effect of group on mean driving error was not statistically significant (F(2, 9) = 0.179, ns).
+The effect of distraction type on mean driving error was statistically significant (F(2, 18) = 5.941, p < .05).
+The distraction type_x_group interaction effect was not statistically significant (F(4, 18) = 0.534, ns).
+
+=============================
+----- MAIN EFFECT MEANS -----
+=============================
+Grand mean: 12.027777777777779
+Participant means: 
+   P0=12.33333
+   P1=12.66667
+   P2=11.33333
+   P3=11
+   P4=12.33333
+   P5=12.33333
+   P6=12.33333
+   P7=12
+   P8=12
+   P9=12.33333
+   P10=10
+   P11=13.66667
+Distraction Type means: 
+   No Distraction=10.75000
+   Call Answering=11.08333
+   Test Messaging=14.25000
+Group means: 
+   G1=11.83333
+   G2=12.25000
+   G3=12
+
+========================
+----- EFFECT SIZES -----
+========================
+Partial-eta-squared (np2)
+   np2 f1(Distraction Type): 0.371087
+   np2 f5(Group): 0.038191
+   np2 f1xf5(Distraction TypexGroup): 0.106149
+-----
+Omega-squared (o2) (between-subjects only)
+   o2 f5(Group): -0.047810
+-----
+
+=============================
+----- RAW DATA UNSORTED -----
+============================
+10,10,17,G1
+14,11,13,G1
+11,9,14,G1
+9,13,11,G1
+13,14,10,G2
+11,8,18,G2
+14,9,14,G2
+9,11,16,G2
+7,14,15,G3
+9,11,17,G3
+10,9,11,G3
+12,14,15,G3
+===========================================
+----- RAW DATA SORTED BY F5 > F6 > F7 -----
+===========================================
+10,10,17,G1
+14,11,13,G1
+11,9,14,G1
+9,13,11,G1
+13,14,10,G2
+11,8,18,G2
+14,9,14,G2
+9,11,16,G2
+7,14,15,G3
+9,11,17,G3
+10,9,11,G3
+12,14,15,G3
+======================
+----- ANOVA DATA -----
+======================
+10.000000,10.000000,17.000000
+14.000000,11.000000,13.000000
+11.000000,9.000000,14.000000
+9.000000,13.000000,11.000000
+13.000000,14.000000,10.000000
+11.000000,8.000000,18.000000
+14.000000,9.000000,14.000000
+9.000000,11.000000,16.000000
+7.000000,14.000000,15.000000
+9.000000,11.000000,17.000000
+10.000000,9.000000,11.000000
+12.000000,14.000000,15.000000
+=================
+----- MEANS -----
+=================
+Grand mean: 12.027777777777779
+m p = [P0=12.33333, P1=12.66667, P2=11.33333, P3=11, P4=12.33333, P5=12.33333, P6=12.33333, P7=12, P8=12, P9=12.33333, P10=10, P11=13.66667]
+m f1 = [No Distraction=10.75000, Call Answering=11.08333, Test Messaging=14.25000]
+m f2 = -
+m f3 = -
+m f5 = [G1=11.83333, G2=12.25000, G3=12]
+m f6 = -
+m f7 = -
+m f1xp = [No Distraction,P0=10, No Distraction,P1=14, No Distraction,P2=11, No Distraction,P3=9, No Distraction,P4=13, No Distraction,P5=11, No Distraction,P6=14, No Distraction,P7=9, No Distraction,P8=7, No Distraction,P9=9, No Distraction,P10=10, No Distraction,P11=12, Call Answering,P0=10, Call Answering,P1=11, Call Answering,P2=9, Call Answering,P3=13, Call Answering,P4=14, Call Answering,P5=8, Call Answering,P6=9, Call Answering,P7=11, Call Answering,P8=14, Call Answering,P9=11, Call Answering,P10=9, Call Answering,P11=14, Test Messaging,P0=17, Test Messaging,P1=13, Test Messaging,P2=14, Test Messaging,P3=11, Test Messaging,P4=10, Test Messaging,P5=18, Test Messaging,P6=14, Test Messaging,P7=16, Test Messaging,P8=15, Test Messaging,P9=17, Test Messaging,P10=11, Test Messaging,P11=15]
+m f2xp = -
+m f3xp = -
+m f4xp = -
+m f1xf2 = -
+m f1xf3 = -
+m f1xf4 = -
+m f1xf5 = [No Distraction,G1=11, No Distraction,G2=11.75000, No Distraction,G3=9.50000, Call Answering,G1=10.75000, Call Answering,G2=10.50000, Call Answering,G3=12, Test Messaging,G1=13.75000, Test Messaging,G2=14.50000, Test Messaging,G3=14.50000]
+m f1xf6 = -
+m f1xf7 = -
+m f2xf3 = -
+m f2xf4 = -
+m f2xf5 = -
+m f2xf6 = -
+m f2xf7 = -
+m f3xf4 = -
+m f3xf5 = -
+m f3xf6 = -
+m f4xf5 = -
+m f5xf6 = -
+m f5xf7 = -
+m f6xf7 = -
+==============================
+----- DEGREES OF FREEDOM -----
+==============================
+df Total: 35
+df Group: 2
+df Participant(Group): 9
+df Distraction Type: 2
+df Distraction Type_x_Group: 4
+df Distraction Type_x_P(group): 18
+===========================
+----- SUMS OF SQUARES -----
+===========================
+ss Total: 268.9722222222222
+ss Group: 1.055556
+ss Participant(Group): 26.583333
+ss Distraction Type: 89.555556
+ss Distraction Type_x_Group: 16.111111
+ss Distraction Type_x_P(group): 135.666667
+========================
+----- MEAN SQUARES -----
+========================
+ms Group: 0.527778
+ms Participant(Group): 2.953704
+ms Distraction Type: 44.777778
+ms Distraction Type_x_Group: 4.027778
+ms Distraction Type_x_P(group): 7.537037
+========================
+----- F STATISTICS -----
+========================
+f Group: 0.178683
+f Distraction Type: 5.941032
+f Distraction Type_x_Group: 0.534398
+==============================
+----- p FOR F STATISTICS -----
+==============================
+p Group: 0.839266
+p Distraction Type: 0.010441
+p Distraction Type_x_Group: 0.712210
+

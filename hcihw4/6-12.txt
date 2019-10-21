@@ -1,0 +1,16 @@
+DV: the number of words (number)
+F1: pets,Waggy,Scratchy
+F2: .
+F3: .
+F4: .
+F5: .
+F6: .
+F7: .
+189	75
+189	130
+222	135
+178	143
+205	98
+278	125
+231	156
+177	213

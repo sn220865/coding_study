@@ -1,0 +1,20 @@
+DV: Mean Driving Error (pixels)
+F1: Distraction Type,No Distraction,Call Answering,Test Messaging
+F2: .
+F3: .
+F4: .
+F5: Group
+F6: .
+F7: .
+10,10,17,G1
+14,11,13,G1
+11,9,14,G1
+9,13,11,G1
+13,14,10,G2
+11,8,18,G2
+14,9,14,G2
+9,11,16,G2
+7,14,15,G3
+9,11,17,G3
+10,9,11,G3
+12,14,15,G3
