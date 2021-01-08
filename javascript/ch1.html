@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Intro</title>
+	<script>
+		document.write("<h2>1. 자바스크립트 시작!!</h2>")
+	</script>
+</head>
+
+<body>
+  <h3>1. window.alert() 메소드 </h3>
+  <!--대화상자-->
+  <button onclick="alertDialogBox()">alert Dialog Box</button>
+  <script>
+    function alertDialogBox(){
+      alert('please click the OK');
+    }
+  </script>
+
+  <h3>2. innerHTML 프로퍼티</h3>
+  <p id='text'>이 문장이 바뀔거야!</p>
+  <script>
+    var str = document.getElementById("text");
+    str.innerHTML = "이 문장으로 바뀌었습니다.";
+  </script>
+
+  <h3>3. document.write() 메소드</h3>
+  <script>
+    document.write(4*5);
+  </script>
+
+  <h3>4. console.log() 메소드</h3>
+  <script>
+    console.log(4*5);
+  </script>
+
+  <noscript>
+    <p>여러분의 웹 브라우저가 자바스크립트를 지원하지 않습니다!</p>
+  </noscript>
+
+</body>
+
+</html>

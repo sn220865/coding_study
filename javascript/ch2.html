@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript type</title>
+	<script>
+		document.write("<h2>2. 타입</h2>")
+	</script>
+</head>
+
+<body>
+  <h3>1. 기본 타입 </h3>
+  <p id = result> 고양이 소개해 주세요! <p>
+  <script>
+    var sym = Symbol("javascript");
+    document.write(typeof sym,'<br>');
+    document.write(typeof null);
+
+    var cat = {name:"콩이", age:2};
+    document.getElementById("result").innerHTML = "이 고양이 이름은 " + cat.name + "이고, 나이는 "
+    											+ cat.age+"살 입니다.";
+  </script>
+
+  <h3>2. 타입 변환 </h3>
+  <script>
+    var num = 20;
+    document.write(num,'<br>');
+
+    num = "이십";
+    document.write(num,'<br>');
+
+    var num;
+    document.write(num,'<br>');
+    document.write(typeof num,'<br>');
+  </script>
+
+  <h3>3. 타입 변환(2) </h3>
+  <script>
+    var num = 20;
+    document.write(num,'<br>');
+
+    num = "이십";
+    document.write(num,'<br>');
+
+    var num;
+    document.write(num,'<br>');
+    document.write(typeof num,'<br>');
+
+    num = "이십";
+    document.write(num,'<br>');
+    document.write('<br>');
+
+    //명시적 타입 변황
+    document.write(Number("10"),'<br>');
+    document.write(Object(1),'<br>');
+    document.write('<br>');
+
+    //숫자 -> string
+    document.write('** number to string** <br>');
+    var num = Number(5);
+    var a = String(4);
+    var b = 332.2.toExponential();
+    var c = 6.25.toFixed(3); //3은 소수의 자릿수를 제한
+    var d = 1.23.toPrecision(4); // 4는 유효숫자의 수를 제한
+
+    // toString은 숫자로 시작하는게 안된다?!
+    var e = num.toString(2); //2는 표현할 진수를 의미 (0~36 사이 정수)
+
+    document.write(a+b,'<br>');
+    document.write(c+d,'<br>');
+    document.write(e,'<br>');
+    document.write('<br>');
+
+    //booleam -> string
+    document.write('** boolean to string** <br>');
+    document.write(String(true),'<br>');
+    document.write(false.toString(),'<br>');
+    document.write('<br>');
+
+    //date object -> string or number
+    document.write('** date to string / number ** <br>');
+    var d = new Date();
+    document.write(d.getTime(),'<br>');
+    document.write(d.toString(),'<br>');
+    document.write(d.getDate(),'<br>');
+    document.write(d.getDay(),'<br>');
+    document.write('<br>');
+
+    //string -> number
+    document.write('** string to number ** <br>');
+    document.write(Number("10"),'<br>');
+    document.write(Number.parseInt("23.245"),'<br>');
+    document.write(Number.parseFloat("3.98"),'<br>');
+    document.write('<br>');
+
+    //boolean -> number
+    document.write('** boolean to number ** <br>');
+    document.write(Number(true),'<br>');
+    document.write(Number(false),'<br>');
+    document.write('<br>');
+  </script>
+
+</body>
+
+</html>
