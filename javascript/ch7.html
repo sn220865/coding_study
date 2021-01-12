@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Intro</title>
+	<script>
+		document.write("<h2>CH7. 객체</h2>")
+	</script>
+</head>
+
+<body>
+  <h3>object example - puppy</h3>
+  <script>
+    var puppy = {name : "콩이", location: "어은동",
+                color : "black",
+                ability : "앉기",
+                instruction:function(){
+                	return this.ability;
+                }};
+
+    document.write(puppy.color+"<br>"+ puppy["name"]+"<br>");
+    document.write("What can it do?"+"<br>" +
+                   puppy.instruction()+"<br>");
+  </script>
+
+  <h3>prototype</h3>
+  <script>
+    var obj = new Object();
+    var date = new Date();
+
+    //object constructor function
+    function Puppy(color, name, ability){
+      this.color = color;
+      this.name = name;
+      this.ability = ability;
+    }
+
+    var kong = new Puppy("black", "콩이", "앉기");
+
+    document.write(date+"<br>"+obj+"<br>");
+    document.write("A :커볶에 있는 강아지 이름은 "+kong.name+"입니다.<br>");
+
+    //객체에 property, method 추가 : kong에게만 추가되는 instruction, Puppy에는 영향 x
+    kong.instruction = "콩이 앉아!";
+    kong.fur = function(){
+      return this.color;
+    }
+    document.write("A : 콩이를 앉히려면 "+ kong.instruction +
+                   " 라고 말하세요! <br>");
+    document.write("B : 콩이 털색이 뭐에요? <br>");
+    document.write("A : "+kong.fur()+" 입니다. <br>");
+
+    //prototype에 property, method 추가 : 직접 생성 or prototype 사용
+    var a = new Puppy("white", "흰둥이", "손!");
+    document.write("Before > "+a.instruction+"<br>");
+    Puppy.prototype.instruction = "앉아";
+    var b = new Puppy("grey", "그레이", "빵야!");
+    document.write("After > "+b.instruction+"<br>");
+  </script>
+
+  <h3>property 순회</h3>
+  <script>
+    Object.defineProperty(b, 'color', {enumerable : false});
+    document.write(Object.keys(b)+"<br>");
+    document.write(Object.getOwnPropertyNames(b)+"<br>");
+  </script>
+
+  <h3>valueOf() method</h3>
+  <script>
+    function func(n) {
+    	this.number = n;
+	}
+
+	myFunc = new func(4);
+	document.write(myFunc + 5+"<br>"); // ① : [object Object]5
+
+	func.prototype.valueOf = function() { // valueOf() 메소드를 정의함.
+    	return this.number;
+    }
+	document.write(myFunc + 5+"<br>");
+  </script>
+
+  <h3>getter & setter method</h3>
+  <script>
+    var hyunjoo = {age : 27};
+	document.write(hyunjoo.age+"<br>"); // 27
+
+    //getter
+	Object.defineProperty(hyunjoo, "ageLastYear", {get : function(){return this.age - 1;}});
+	document.write(hyunjoo.ageLastYear+"<br>"); //26
+
+    //setter
+    Object.defineProperty(hyunjoo, "ageChange", {set : function(n){this.age = this.age + n;}});
+	hyunjoo.ageChange = 10;
+    document.write(hyunjoo.age+"<br>"); //37
+  </script>
+
+	<noscript>
+		<p>여러분의 웹 브라우저가 자바스크립트를 지원하지 않습니다!</p>
+	</noscript>
+
+</body>
+
+</html>
