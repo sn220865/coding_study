@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML practice site</title>
+  	<style>
+      a:link    { color: skyblue; }
+      a:visited { color: darkred; text-decoration: none }
+      a:hover   { color: yellow; text-decoration: none }
+      a:active  { color: red; text-decoration: none }
+	</style>
+  	<style>
+    	table, th, td { border: 1px solid black; border-collapse: collapse }
+	</style>
+
+</head>
+
+<body style="background-color:#6F6F6F">
+
+	<h1 style="color:pink;  text-align:center">Hyunjoo's Practice Page!!</h1>
+
+  	<!-- hyperlink tags-->
+  	<a href="http://www.tcpschool.com" target="_blank"><h2>web study</h2></a>
+  	<h2><a href="http://www.naver.com" target="myframe">Naver</a></h2>
+  	<h2><a href="http://www.google.com" target="_blank">Google</a></h2>
+  	<h2><a href="http://www.mail.kaist.ac.kr" target="_blank">KAIST Mail</a></h2>
+  	<h2><a href="#bookmark">Go to star line!</a></h2>
+	<iframe name="myframe" style="width:50%; height: 330px"></iframe>
+
+  	<h2><a name="bookmark">Star Line : Not shown when start the page!</a></h2>
+
+  	<table style="width:80%">
+      <caption>To do List</caption>
+      <tr style="background-color:skyblue">
+        <th>우선순위</th>
+        <th colspan="2">할 일</th>
+        <th> Deadlilne</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>html 공부하기</td>
+        <td>ch 5.까지라도 하기</td>
+        <td rowspan="2"> today </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>ncs 공부하기</td>
+        <td>오답 노트하고, 모의고사 1개 풀기</td>
+      </tr>
+  </table>
+
+
+</body>
+
+</html>
