@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML practice site</title>
+</head>
+
+<body style="background-color:#6F6F6F">
+
+	<h1 style="color:pink;  text-align:center">Hyunjoo's Practice Page!!</h1>
+
+  	<h1>텍스트 입력</h1>
+  	<form action="/examples/media/request.php">
+    	검색할 내용을 입력하세요 :
+    	<input type="text" name="search">
+    </form>
+
+  <h1>비밀번호 입력</h1>
+	<form>
+		사용자 : <br>
+		<input type="text" name="username"><br>
+		비밀번호 : <br>
+		<input type="password" name="password">
+	</form>
+
+  <h1>라디오 버튼</h1>
+	<p>다음 중 가능한 날짜에 투표 해 주세요.</p>
+	<form>
+		<input type="radio" name="date" value="0118" checked> 1월 18일 <br>
+		<input type="radio" name="date" value="0121"> 1월 21일 <br>
+		<input type="radio" name="date" value="0122"> 1월 22일 <br>
+		<input type="radio" name="date" value="0123"> 1월 23일<br>
+	</form>
+
+  <h1>체크박스</h1>
+	<p>다음 중 오늘 먹은 간식을 <b>모두<b> 골라주세요.</p>
+	<form>
+		<input type="checkbox" name="food" value="energybar" checked> 에너지바 <br>
+		<input type="checkbox" name="food" value="nuts"> 하루견과 <br>
+		<input type="checkbox" name="food" value="bananachip"> 바나나칩 <br>
+		<input type="checkbox" name="food" value="twix" disabled> 트윅스
+	</form>
+
+   <h1>파일 선택 박스</h1>
+	<p>본인 확인을 위한 증명 사진을 업로드 하세요.</p>
+	<form>
+		<input type="file" name="upload_file" accept="image/*">
+	</form>
+
+   <h1>선택 입력</h1>
+	<p>다음 중 여러분이 가장 좋아하는 식감을 골라주세요.</p>
+	<form>
+		<select name="taste">
+			<option value="ricecake"> 쫀득
+			<option value="snack" selected> 바삭
+			<option value="tiramishu"> 사르르
+			<option value="icecream"> 꾸덕
+		</select>
+	</form>
+
+   <h1>문장 입력</h1>
+	<p>자신의 장점에 대해 서술하시오.</p>
+	<form>
+		<textarea name="message" rows="5" cols="30" maxlength="10">여기에 적으세요.</textarea>
+	</form>
+
+   <h1>버튼 입력</h1>
+	<button type="button" onclick="alert('버튼을 클릭하셨군요!')">버튼을 눌러주세요.</button>
+
+   <h1>필드셋</h1>
+	<form action="/examples/media/request.php">
+		<fieldset>
+			<legend>입력 양식</legend>
+			이름 : <br>
+			<input type="text" name="username" value="홍길동" readonly><br>
+			이메일 : <br>
+			<input type="text" name="email"><br><br>
+			<input type="submit" value="전송">
+		</fieldset>
+	</form>
+
+</body>
+
+</html>
